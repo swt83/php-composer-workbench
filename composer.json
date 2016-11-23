@@ -1,0 +1,19 @@
+{
+    "name": "travis/workbench",
+    "description": "A standalone PHP app for developing Composer packages.",
+    "license": "MIT",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "packages/*"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:swt83/php-dump.git"
+        }
+    ],
+    "require": {
+        "travis/dump": "dev-master"
+    },
+    "minimum-stability": "dev",
+}
