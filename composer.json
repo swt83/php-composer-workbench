@@ -15,5 +15,5 @@
     "require": {
         "travis/dump": "dev-master"
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "dev"
 }
