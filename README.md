@@ -21,7 +21,7 @@ Amend the ``composer.json`` file to include your new package and update:
 
 ```json
 "require": {
-    "travis/dump": "dev-master"
+    "travis/dump": "dev-master",
     "your/repo": "dev-master"
 },
 ```
