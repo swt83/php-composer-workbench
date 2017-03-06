@@ -19,3 +19,11 @@ $ composer update
 ```
 
 Use the existing ``index.php`` file to test your package(s). Use ``xx($response)`` to dump variables for debugging.
+
+## Cleanup
+
+When you are done testing your package, just delete it:
+
+```
+rm -rf packages/*
+```
