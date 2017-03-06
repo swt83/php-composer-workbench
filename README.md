@@ -1,6 +1,6 @@
 # Workbench
 
-A testing ground for developing Composer packages.
+A standalone PHP app for developing Composer packages.
 
 ## Usage
 
