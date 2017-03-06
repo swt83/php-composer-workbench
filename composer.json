@@ -4,16 +4,23 @@
     "license": "MIT",
     "repositories": [
         {
-            "type": "path",
-            "url": "packages/*"
-        },
-        {
             "type": "vcs",
             "url": "git@github.com:swt83/php-dump.git"
         }
     ],
     "require": {
+        "wikimedia/composer-merge-plugin": "dev-master",
         "travis/dump": "dev-master"
     },
-    "minimum-stability": "dev",
+    "extra": {
+        "merge-plugin": {
+            "include": [
+                "packages/*/*/composer.json"
+            ],
+            "recurse": true,
+            "replace": false,
+            "merge-dev": true
+        }
+    },
+    "minimum-stability": "dev"
 }
